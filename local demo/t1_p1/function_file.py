@@ -31,7 +31,7 @@ def database_insert(filepath,name,apperance,seen_last,status):
             for x in range(count):
                 print(lines[x].strip(),file=f)
             id =r_number_generator(name,apperance,seen_last,status)
-            #print(id)  
+          
             print(name,",",apperance,",",seen_last,",",status,",",id ,file=f)
             print()
             f.close
@@ -280,12 +280,3 @@ def file_comparer(filepath,filepath2,filepath3):
     merged_array= merge_arrays_no_dupes(content,c)
     #print (merged_array)
     write_array_to_file(filepath3,merged_array)
-"""
-#function 1 example
-def main():
-    print("enter peer number which you want to connect to")
-    numbers = input("")
-    peer_to_ip_and_port(numbers)
-    print(portfull,ipfull)
-main()
-"""
