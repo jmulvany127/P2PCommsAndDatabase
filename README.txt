@@ -3,7 +3,7 @@ This project was completed as part of a computer networks module in third year. 
 to be used for the recording and discovery of missing persons during the widespread displacement of people following the Rohingya acrisis in Myanmar.
 A full description is available in the project report below. 
 
-## A brief summary of Project 2 knowledge and experience
+### A brief summary of Project 2 knowledge and experience
  Before Project 2, we had only read about P2P applications and basic Client-Server socket program
 ming in the course book. Therefore it was a challenging project with tons of takeaways. We watched a
  lot of videos and browsed the web for information and we gained knowledge and experience in socket
@@ -21,7 +21,7 @@ erate even if some nodes are offline or shut down. In Project 2 we learned by do
  We learned how to implement database access control by using mutexes for synchronization. We also
  gained more experience in using git and GitHub for version control which is really practical.
 
- ## Primary focus
+ ### Primary focus
  For this project, our primary focus is the oppression faced by the Rohingya muslims of Myanmar.
  The Burmese military government has, for the past several years, clamped down on this minority
  group, attacking and raiding villages populated by them. Naturally, this has led to Myanmar being an
@@ -36,7 +36,7 @@ erate even if some nodes are offline or shut down. In Project 2 we learned by do
  data fabric to be devised- one that doesn’t depend on a single central server for its functioning. This
  is where P2P networks come in.
 
- ## Networking/Communication aspects of our solution
+ ### Networking/Communication aspects of our solution
  We aim to help with issue this by implementing a peer to peer network within which identity authen
 ticated trusted nodes, will be capable of sending messages and altering and sharing a decentralised
  database containing information on missing, found and deceased persons, vaccine records, refugee camp
@@ -79,14 +79,14 @@ matically create a new thread, preventing it from being blocked by one specific 
  tier 2 device will continue randomly polling the peers in tier 1 for a refreshed file version until one is
  received or the max number of attempts’ is reached and the user is notified with an error message.
 
- ## Requisite knowledge/skills necessary
+ ### Requisite knowledge/skills necessary
 
  To realise our solution it is necessary to have a basic understanding of networking concepts, like
  P2P and Transport Layer protocols. It is also good to have some socket programming knowledge and
  experience in Python (or for similar languages). It is also important to understand how multi-threaded
  applications and some experience using mutexes.
 
- ## Our Test Cases
+ ### Our Test Cases
 
  Our potential test cases which we discussed in our meetings had to be relevant to how we believe our
  project would be used practically in a conflict zone. With this in mind we decided that our first test
@@ -118,7 +118,7 @@ ing on between meetings. During meetings we also went over what was going well a
  on them. That went well and we spent a lot of time together in the LG12 laboratory where we worked
  on our implementation and conducted testing
 
- ## Groupwork challenges and issues managed
+ ### Groupwork challenges and issues managed
 
  Wecame across some challenges with the code during the project. By debugging the code we were able
  to fix the problems (many minor problems to start with like not having the right IP address values in
@@ -153,7 +153,7 @@ tionality.
  to run. We wanted to be able to disconnect a peer from the network and show that the peer will try to
  connect to other peers and have it time out due to a lack of response over a ”reasonable” time period.
 
- ##Reflection of Project
+ ### Reflection of Project
 
  We believe that our solution in its current state has no real world viability. There are multiple reasons
  for us to say this however the biggest being the inability of discovering new peers on the network.
