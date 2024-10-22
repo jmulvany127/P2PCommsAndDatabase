@@ -1,4 +1,4 @@
-#Tiered P2P Communication and Database System
+# Tiered P2P Communication and Database System
 This project was completed as part of a computer networks module in third year. In brief it involved the creation of a distributed peer to peer communication and database system 
 to be used for the recording and discovery of missing persons during the widespread displacement of people following the Rohingya acrisis in Myanmar.
 A full description is available in the project report below. 
